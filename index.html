@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebecca Portolio</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .grid-container {
+          display: grid;
+          grid-template-columns:250px auto auto;
+          grid-template-rows:200px 200px ;
+          grid-gap: 10px;
+          background-color: #ff0099;
+          padding: 10px;
+        }
+        
+        .grid-container > div {
+          background-color: rgba(255, 255, 255, 0.8);
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+        }
+        .whole{
+            padding:80px;
+            width:auto;
+        }
+        </style>
+</head>
+<body>
+    <div class="whole">
+        <h1>Portfilio</h1>
+        <p>The grid-template property can be used as a shorthand property for the <em>grid-template-rows</em> and the <em>grid-template-columns</em> properties.</p>
+        <p>This grid layout has three columns, and the first row is 150px high:</p>
+        <div class="grid-container">
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>  
+            <div class="item4">4</div>
+            <div class="item5">5</div>
+            <div class="item6">6</div>
+        </div>
+    </div>  
+
+    </body>
+</html>
